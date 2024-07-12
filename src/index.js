@@ -7,16 +7,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.closeai.me": dockerHub,
-  "quay.closeai.me": "https://quay.io",
-  "gcr.closeai.me": "https://gcr.io",
-  "k8s-gcr.closeai.me": "https://k8s.gcr.io",
-  "k8s.closeai.me": "https://registry.k8s.io",
-  "ghcr.closeai.me": "https://ghcr.io",
-  "cloudsmith.closeai.me": "https://docker.cloudsmith.io",
+  "docker.vipdaixie.vip": dockerHub,
+  "quay.vipdaixie.vip": "https://quay.io",
+  "gcr.vipdaixie.vip": "https://gcr.io",
+  "k8s-gcr.vipdaixie.vip": "https://k8s.gcr.io",
+  "k8s.vipdaixie.vip": "https://registry.k8s.io",
+  "ghcr.vipdaixie.vip": "https://ghcr.io",
+  "cloudsmith.vipdaixie.vip": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.closeai.me": dockerHub,
+  "docker-staging.vipdaixie.vip": dockerHub,
 };
 
 function routeByHosts(host) {
